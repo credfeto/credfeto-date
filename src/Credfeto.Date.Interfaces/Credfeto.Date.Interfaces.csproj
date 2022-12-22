@@ -24,7 +24,7 @@
     <TreatSpecificWarningsAsErrors />
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <UseSystemResourceKeys>true</UseSystemResourceKeys>
-    <WarningsAsErrors />
+    <WarningsAsErrors/>
   </PropertyGroup>
   <PropertyGroup>
     <AnalysisLevel>latest</AnalysisLevel>
@@ -34,16 +34,31 @@
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
   </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Mark Ridgwell</Authors>
+    <Company>Mark Ridgwell</Company>
+    <Copyright>Mark Ridgwell</Copyright>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>$(ReleaseNotes)</PackageReleaseNotes>
+    <PackageTags>Date Time</PackageTags>
+    <Product>Date/time abstractions</Product>
+    <RepositoryUrl>https://github.com/credfeto/credfeto-extensions-configuration-typed-json</RepositoryUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyTitle>Date and time abstractions and extensions.</AssemblyTitle>
+    <Description>Date and time abstractions and extensions.</Description>
+  </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="AsyncFixer" Version="1.6.0" PrivateAssets="All" ExcludeAssets="runtime" />
-    <PackageReference Include="codecracker.CSharp" Version="1.1.0" PrivateAssets="All" ExcludeAssets="runtime" />
-    <PackageReference Include="Credfeto.Enumeration.Source.Generation" Version="1.0.2.14" PrivateAssets="All" ExcludeAssets="runtime" />
-    <PackageReference Include="FunFair.CodeAnalysis" Version="5.9.0.1493" PrivateAssets="All" ExcludeAssets="runtime" />
-    <PackageReference Include="Meziantou.Analyzer" Version="1.0.757" PrivateAssets="All" ExcludeAssets="runtime" />
-    <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.4.27" PrivateAssets="All" ExcludeAssets="runtime" />
-    <PackageReference Include="Nullable.Extended.Analyzer" Version="1.10.4539" PrivateAssets="All" ExcludeAssets="runtime" />
-    <PackageReference Include="Philips.CodeAnalysis.DuplicateCodeAnalyzer" Version="1.1.7" PrivateAssets="All" ExcludeAssets="runtime" />
-    <PackageReference Include="Philips.CodeAnalysis.MaintainabilityAnalyzers" Version="1.2.30" PrivateAssets="All" ExcludeAssets="runtime" />
+    <PackageReference Include="AsyncFixer" Version="1.6.0" PrivateAssets="All" ExcludeAssets="runtime"/>
+    <PackageReference Include="codecracker.CSharp" Version="1.1.0" PrivateAssets="All" ExcludeAssets="runtime"/>
+    <PackageReference Include="Credfeto.Enumeration.Source.Generation" Version="1.0.2.14" PrivateAssets="All" ExcludeAssets="runtime"/>
+    <PackageReference Include="FunFair.CodeAnalysis" Version="5.9.0.1493" PrivateAssets="All" ExcludeAssets="runtime"/>
+    <PackageReference Include="Meziantou.Analyzer" Version="1.0.757" PrivateAssets="All" ExcludeAssets="runtime"/>
+    <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.4.27" PrivateAssets="All" ExcludeAssets="runtime"/>
+    <PackageReference Include="Nullable.Extended.Analyzer" Version="1.10.4539" PrivateAssets="All" ExcludeAssets="runtime"/>
+    <PackageReference Include="Philips.CodeAnalysis.DuplicateCodeAnalyzer" Version="1.1.7" PrivateAssets="All" ExcludeAssets="runtime"/>
+    <PackageReference Include="Philips.CodeAnalysis.MaintainabilityAnalyzers" Version="1.2.30" PrivateAssets="All" ExcludeAssets="runtime"/>
     <PackageReference Include="Roslynator.Analyzers" Version="4.2.0" PrivateAssets="All" ExcludeAssets="runtime" />
     <PackageReference Include="SecurityCodeScan.VS2019" Version="5.6.7" PrivateAssets="All" ExcludeAssets="runtime" />
     <PackageReference Include="SmartAnalyzers.CSharpExtensions.Annotations" Version="4.2.7" PrivateAssets="All" ExcludeAssets="runtime" />
