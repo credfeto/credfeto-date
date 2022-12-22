@@ -1,5 +1,6 @@
-# cs-template
-C# Template
+# credfeto-date
+
+Date/Time abstractions and extensions.
 
 ## Changelog
 

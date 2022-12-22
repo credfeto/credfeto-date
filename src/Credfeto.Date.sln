@@ -9,8 +9,31 @@ ProjectSection(SolutionItems) = preProject
 	global.json = global.json
 	..\CHANGELOG.md = ..\CHANGELOG.md
 	..\README.md = ..\README.md
-	FunFair.props = FunFair.props
 EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Date.Interfaces", "Credfeto.Date.Interfaces\Credfeto.Date.Interfaces.csproj", "{F0029732-1BA9-4179-B7E6-07A6730B00A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Date.Tests", "Credfeto.Date.Tests\Credfeto.Date.Tests.csproj", "{BD936D32-057C-4E56-BD68-CDE0B9D5B1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Date", "Credfeto.Date\Credfeto.Date.csproj", "{61D0F87E-2785-4862-B2F7-C54B1D465916}"
+EndProject
 Global
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0029732-1BA9-4179-B7E6-07A6730B00A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0029732-1BA9-4179-B7E6-07A6730B00A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0029732-1BA9-4179-B7E6-07A6730B00A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0029732-1BA9-4179-B7E6-07A6730B00A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD936D32-057C-4E56-BD68-CDE0B9D5B1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD936D32-057C-4E56-BD68-CDE0B9D5B1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD936D32-057C-4E56-BD68-CDE0B9D5B1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD936D32-057C-4E56-BD68-CDE0B9D5B1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D0F87E-2785-4862-B2F7-C54B1D465916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D0F87E-2785-4862-B2F7-C54B1D465916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D0F87E-2785-4862-B2F7-C54B1D465916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D0F87E-2785-4862-B2F7-C54B1D465916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
 EndGlobal
