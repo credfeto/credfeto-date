@@ -32,3 +32,9 @@
  - any: [ './**/*.md' ]
 "github-actions":
  - any: [ '.github/workflows/*.yml' ]
+"Credfeto.Date":
+ - any: [ 'src/Credfeto.Date/**/*' ]
+"Interfaces":
+ - any: [ 'src/Credfeto.Date.Interfaces/**/*' ]
+"Tests":
+ - any: [ 'src/Credfeto.Date.Tests/**/*' ]
