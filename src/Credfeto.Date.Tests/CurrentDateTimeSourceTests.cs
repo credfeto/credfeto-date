@@ -4,7 +4,7 @@ using Credfeto.Date.Interfaces;
 using FunFair.Test.Common;
 using Xunit;
 
-namespace Credfeto.Date.Tests.Services;
+namespace Credfeto.Date.Tests;
 
 public sealed class CurrentDateTimeSourceTests : TestBase
 {
