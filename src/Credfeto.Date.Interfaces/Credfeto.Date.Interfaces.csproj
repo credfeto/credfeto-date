@@ -43,7 +43,7 @@
     <PackageReleaseNotes>$(ReleaseNotes)</PackageReleaseNotes>
     <PackageTags>Date Time</PackageTags>
     <Product>Date/time abstractions</Product>
-    <RepositoryUrl>https://github.com/credfeto/credfeto-extensions-configuration-typed-json</RepositoryUrl>
+    <RepositoryUrl>https://github.com/credfeto/credfeto-date</RepositoryUrl>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyTitle>Date and time abstractions and extensions.</AssemblyTitle>
