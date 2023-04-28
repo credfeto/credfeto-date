@@ -15,6 +15,10 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.1.0] - 2023-04-28
+### Added
+- DateTimeExtensions for converting DateTime to DateTimeOffset
+
 ## [1.0.7] - 2023-04-28
 ### Changed
 - Dependencies - Updated Credfeto.Enumeration.Source.Generation to 1.0.9.588
