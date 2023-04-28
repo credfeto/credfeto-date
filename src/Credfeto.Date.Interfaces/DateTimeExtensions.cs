@@ -7,12 +7,9 @@ public static class DateTimeExtensions
 {
     public static DateTimeOffset AsDateTimeOffset(in this DateTime dateTime)
     {
-        if (dateTime.Kind != DateTimeKind.Utc)
-        {
-            return MustBeInUtc(dateTime);
-        }
-
-        return new(dateTime: dateTime, offset: TimeSpan.Zero);
+        return dateTime.Kind == DateTimeKind.Utc
+            ? new(dateTime: dateTime, offset: TimeSpan.Zero)
+            : MustBeInUtc(dateTime);
     }
 
     [DoesNotReturn]
