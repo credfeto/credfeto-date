@@ -9,13 +9,16 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated Credfeto.Enumeration.Source.Generation to 1.1.3.296
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.1.15] - 2024-03-08
+### Changed
+- Dependencies - Updated Credfeto.Enumeration.Source.Generation to 1.1.3.296
+
 ## [1.1.14] - 2024-03-07
 ### Changed
 - Dependencies - Updated NSubstitute.Analyzers.CSharp to 1.0.17
