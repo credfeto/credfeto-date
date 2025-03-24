@@ -2,7 +2,6 @@ using Credfeto.Date.Interfaces;
 using FunFair.Test.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
-using Xunit.Abstractions;
 
 namespace Credfeto.Date.Tests;
 
