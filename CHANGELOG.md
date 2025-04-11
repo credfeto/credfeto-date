@@ -9,9 +9,9 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated FunFair.CodeAnalysis to 7.0.74.984
 - Dependencies - Updated FunFair.Test.Common to 6.1.265.1215
 - SDK - Updated DotNet SDK to 9.0.203
+- Dependencies - Updated FunFair.CodeAnalysis to 7.0.76.1027
 ### Removed
 ### Deployment Changes
 
