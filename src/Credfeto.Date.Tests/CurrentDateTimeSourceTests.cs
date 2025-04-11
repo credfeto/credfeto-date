@@ -16,7 +16,11 @@ public sealed class CurrentDateTimeSourceTests : TestBase
     }
 
     [Fact]
-    [SuppressMessage(category: "FunFair.CodeAnalysis", checkId: "FFS0005: Call Date Time abstraction", Justification = "This is implementing the referenced mechanism")]
+    [SuppressMessage(
+        category: "FunFair.CodeAnalysis",
+        checkId: "FFS0005: Call Date Time abstraction",
+        Justification = "This is implementing the referenced mechanism"
+    )]
     public void CurrentDateTimeSource_GetUtcNow_ReturnsCurrentDateTime()
     {
         DateTimeOffset expected = DateTimeOffset.UtcNow;
@@ -25,6 +29,9 @@ public sealed class CurrentDateTimeSourceTests : TestBase
         DateTimeOffset result = currentDateTimeSource.UtcNow();
 
         TimeSpan difference = result - expected;
-        Assert.True(difference.TotalMilliseconds is >= 0 and < 100, $"Should be within a reasonable tolerance. Currently ${difference.TotalMilliseconds}ms");
+        Assert.True(
+            difference.TotalMilliseconds is >= 0 and < 100,
+            $"Should be within a reasonable tolerance. Currently ${difference.TotalMilliseconds}ms"
+        );
     }
 }

@@ -15,6 +15,10 @@ public static class DateTimeExtensions
     [DoesNotReturn]
     private static DateTimeOffset MustBeInUtc(in DateTime dateTime)
     {
-        throw new ArgumentOutOfRangeException(nameof(dateTime), actualValue: dateTime, message: "DateTime must be in UTC");
+        throw new ArgumentOutOfRangeException(
+            nameof(dateTime),
+            actualValue: dateTime,
+            message: "DateTime must be in UTC"
+        );
     }
 }
