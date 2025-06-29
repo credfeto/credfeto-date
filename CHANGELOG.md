@@ -11,7 +11,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Changed
 - Dependencies - Updated FunFair.CodeAnalysis to 7.1.6.1242
 - Dependencies - Updated FunFair.Test.Common to 6.1.274.1486
-- Dependencies - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 1.6.1
+- Dependencies - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 1.6.2
 ### Removed
 ### Deployment Changes
 
