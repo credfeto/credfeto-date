@@ -10,10 +10,10 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 ### Changed
 - Dependencies - Updated FunFair.CodeAnalysis to 7.1.6.1242
-- Dependencies - Updated FunFair.Test.Common to 6.1.274.1486
 - Dependencies - Updated Meziantou.Analyzer to 2.0.205
 - Dependencies - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 1.6.3
 - Dependencies - Updated Microsoft.Extensions to 9.0.7
+- Dependencies - Updated FunFair.Test.Common to 6.1.275.1526
 ### Removed
 ### Deployment Changes
 
