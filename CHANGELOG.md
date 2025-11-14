@@ -9,18 +9,21 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated Credfeto.Enumeration to 1.2.129.1430
-- Dependencies - Updated FunFair.CodeAnalysis to 7.1.25.1550
-- Dependencies - Updated Meziantou.Analyzer to 2.0.252
-- Dependencies - Updated Microsoft.Sbom.Targets to 4.1.3
-- Dependencies - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 1.9.1
-- Dependencies - Updated Roslynator.Analyzers to 4.14.1
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.1.140] - 2025-11-14
+### Changed
+- Dependencies - Updated Credfeto.Enumeration to 1.2.129.1430
+- Dependencies - Updated FunFair.CodeAnalysis to 7.1.25.1550
+- Dependencies - Updated Meziantou.Analyzer to 2.0.252
+- Dependencies - Updated Microsoft.Sbom.Targets to 4.1.3
+- Dependencies - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 1.9.1
+- Dependencies - Updated Roslynator.Analyzers to 4.14.1
+
 ## [1.1.139] - 2025-11-13
 ### Changed
 - Dotnet 10
