@@ -9,17 +9,20 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated Credfeto.Enumeration to 1.2.133.1545
-- Dependencies - Updated FunFair.CodeAnalysis to 7.1.28.1637
-- Dependencies - Updated Meziantou.Analyzer to 2.0.257
-- Dependencies - Updated Microsoft.Sbom.Targets to 4.1.4
-- Dependencies - Updated SonarAnalyzer.CSharp to 10.16.0.128591
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.1.143] - 2025-11-30
+### Changed
+- Dependencies - Updated Credfeto.Enumeration to 1.2.133.1545
+- Dependencies - Updated FunFair.CodeAnalysis to 7.1.28.1637
+- Dependencies - Updated Meziantou.Analyzer to 2.0.257
+- Dependencies - Updated Microsoft.Sbom.Targets to 4.1.4
+- Dependencies - Updated SonarAnalyzer.CSharp to 10.16.0.128591
+
 ## [1.1.142] - 2025-11-23
 ### Changed
 - Dependencies - Updated Credfeto.Enumeration to 1.2.132.1532
