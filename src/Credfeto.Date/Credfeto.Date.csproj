@@ -4,7 +4,6 @@
     <AnalysisMode>AllEnabledByDefault</AnalysisMode>
     <AssemblyTitle>Date and time abstractions and extensions.</AssemblyTitle>
     <Authors>Mark Ridgwell</Authors>
-    <CodeAnalysisRuleSet>$(SolutionDir)\CodeAnalysis.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
     <Company>Mark Ridgwell</Company>
     <Copyright>Mark Ridgwell</Copyright>
