@@ -11,6 +11,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Changed
 - Dependencies - Updated Meziantou.Analyzer to 3.0.48
 - Dependencies - Updated Philips.CodeAnalysis.DuplicateCodeAnalyzer to 1.12.0
+- Dependencies - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 1.12.0
 ### Removed
 ### Deployment Changes
 
